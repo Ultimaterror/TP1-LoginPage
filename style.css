@@ -35,6 +35,34 @@ h1 {
 .divInput {
     display: flex;
     flex-direction: column;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.divInput input {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FFAA04;
+    height: 50px;
+}
+
+#bottom {
+    text-align: center;
+}
+
+button {
+    background-color: #FFAA04;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-left: 75%;
 }
 
 #right {

@@ -1,3 +1,55 @@
+body {
+    margin: 0;
+    color: white;
+    height: 95vh;
+    font-family: 'Roboto';
+
+}
+
+main {
+    display: flex;
+    margin: 10px;
+    background: #FFAA04;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 80vh;
+    /* height: 100%; */
+    padding: 30px;
+
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 10% 5% 10% 5%;
+}
+
+.divInput {
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic {
+    width: 70%;
+    height: 90%;
+    background-image: url(https://batterygiantrochesterhills.com/wp-content/uploads/2021/08/davisco-rhUU1pemhQ0-unsplash.jpg);
+}
+
 @media screen and (max-width: 600px) {
     #right {
       display: none;
@@ -6,4 +58,4 @@
     #left {
         width: 100%;
     }
-  }
+ }

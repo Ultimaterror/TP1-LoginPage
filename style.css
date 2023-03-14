@@ -49,3 +49,13 @@ h1 {
     height: 90%;
     background-image: url(https://batterygiantrochesterhills.com/wp-content/uploads/2021/08/davisco-rhUU1pemhQ0-unsplash.jpg);
 }
+
+@media screen and (max-width: 600px) {
+    #right {
+      display: none;
+    }
+
+    #left {
+        width: 100%;
+    }
+ }
